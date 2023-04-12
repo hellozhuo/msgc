@@ -27,7 +27,7 @@ please unzip the checkpoints to folder [checkpoints](checkpoints).
 The evaluation scripts to reproduce the following results can be found in [scripts.sh](scripts.sh).
 
 | Model | Attention | Top-1 (%) | Top-5 (%) | MAC | Training script | Training log |
-|-------|-------|-------|-------|-----|-------------|
+|-------|-------|-------|-------|-----|-------------|-------------|
 | ResNet-18 | - | 69.76 | 89.08 | 1817 M | - | - |
 | ResNet-18 + MSGC | &cross; | 70.30 | 89.27 | 883 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L32) | [log](logs/msgc_resnet18_noatt_log.txt) |
 | ResNet-18 + MSGC | &check; | 71.51 | 90.21 | 885 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L35) | [log](logs/msgc_resnet18_att_log.txt) |
