@@ -7,7 +7,7 @@ by
 [Jiehua Zhang](https://scholar.google.com/citations?user=UIbAv3wAAAAJ&hl=en&oi=sra), 
 Tianpeng Liu,
 Zhen Liu,
-shuanghui zhang,
+Shuanghui Zhang,
 [Matti Pietikäinen](https://en.wikipedia.org/wiki/Matti_Pietik%C3%A4inen_(academic)) and 
 [Li Liu](http://lilyliliu.com/)\*
 (\* Corresponding author).
