@@ -268,7 +268,7 @@ def msgc_condensenet(args):
     config = Config_densenet(args)
     model = DyDenseNet(config)
     if not args.scratch:
-        url = 'https://github.com/hellozhuo/msgc/releases/download/v0.1/pretrained_densenet74.pth'
+        url = 'https://github.com/hellozhuo/msgc/releases/download/v1.0/pretrained_densenet74.pth'
         pretrained_dict = load_state_dict_from_url(url, progress=True)
         model_dict = model.state_dict()
         model_dict.update(pretrained_dict)
