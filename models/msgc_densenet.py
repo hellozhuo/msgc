@@ -6,6 +6,7 @@ from __future__ import division
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from torchvision.models.utils import load_state_dict_from_url
 import math
 
 from .utils import MaskGen, AttGen, conv2d_out_dim
@@ -267,8 +268,8 @@ def msgc_condensenet(args):
     config = Config_densenet(args)
     model = DyDenseNet(config)
     if not args.scratch:
-        path = './models/pretrained_models/densenet74_cp.pth'
-        pretrained_dict = torch.load(path)
+        url = 'https://github.com/hellozhuo/msgc/releases/download/v0.1/pretrained_densenet74.pth'
+        pretrained_dict = load_state_dict_from_url(url, progress=True)
         model_dict = model.state_dict()
         model_dict.update(pretrained_dict)
         model.load_state_dict(model_dict)

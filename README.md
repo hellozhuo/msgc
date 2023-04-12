@@ -26,23 +26,23 @@ The performances of MSGC equipped models (on ImageNet) are listed below. The che
 please unzip the checkpoints to folder [checkpoints](checkpoints). 
 The evaluation scripts to reproduce the following results can be found in [scripts.sh](scripts.sh).
 
-| Model | Attention | Top-1 (%) | Top-5 (%) | MAC | Training logs |
+| Model | Attention | Top-1 (%) | Top-5 (%) | MAC | Training script | Training log |
 |-------|-------|-------|-------|-----|-------------|
-| ResNet-18 | - | 69.76 | 89.08 | 1817 M | - |
-| ResNet-18 + MSGC | &cross; | 70.30 | 89.27 | 883 M | [log]() |
-| ResNet-18 + MSGC | &check; | 71.51 | 90.21 | 885 M | [log]() |
-| ResNet-18 + MSGC | &check; | 72.33 | 90.53 | 1630 M | [log]() |
+| ResNet-18 | - | 69.76 | 89.08 | 1817 M | - | - |
+| ResNet-18 + MSGC | &cross; | 70.30 | 89.27 | 883 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L32) | [log](logs/msgc_resnet18_noatt_log.txt) |
+| ResNet-18 + MSGC | &check; | 71.51 | 90.21 | 885 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L35) | [log](logs/msgc_resnet18_att_log.txt) |
+| ResNet-18 + MSGC | &check; | 72.33 | 90.53 | 1630 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L53) | [log](logs/msgc_resnet18_noatt_tau0_9_log.txt) |
 | | | | | | |
-| ResNet-50 | - | 76.13 | 92.86 | 4099 M | - |
-| ResNet-50 + MSGC | &cross; | 77.20 | 93.37 | 1886 M | [log]() |
-| ResNet-50 + MSGC | &check; | 76.76 | 92.99 | 1892 M | [log]() |
+| ResNet-50 | - | 76.13 | 92.86 | 4099 M | - | - |
+| ResNet-50 + MSGC | &cross; | 77.20 | 93.37 | 1886 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L38) | [log](logs/msgc_resnet50_noatt_log.txt) |
+| ResNet-50 + MSGC | &check; | 76.76 | 92.99 | 1892 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L41) | [log](logs/msgc_resnet50_att_log.txt) |
 | | | | | | |
-| MobileNetV2 | - | 71.88 | 90.27 | 307 M | - |
-| MobileNetV2 + MSGC | &cross; | 72.10 | 90.41 | 198 M | [log]() |
-| MobileNetV2 + MSGC | &check; | 72.59 | 90.82 | 197 M | [log]() |
+| MobileNetV2 | - | 71.88 | 90.27 | 307 M | - | - |
+| MobileNetV2 + MSGC | &cross; | 72.10 | 90.41 | 198 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L44) | [log](logs/msgc_mobilenetv2_noatt_log.txt) |
+| MobileNetV2 + MSGC | &check; | 72.59 | 90.82 | 197 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L47) | [log](logs/msgc_mobilenetv2_att_log.txt) |
 | | | | | | |
-| CondenseNet | - | 73.80 | 91.70 | 529 M | - |
-| CondenseNet + MSGC | &cross; | 74.81 | 92.17 | 523 M | [log]() |
+| CondenseNet | - | 73.80 | 91.70 | 529 M | - | - |
+| CondenseNet + MSGC | &cross; | 74.81 | 92.17 | 523 M | [script](https://github.com/hellozhuo/msgc/blob/092f46e4e115bfdcbc73546c309267996fa86dd2/scripts.sh#L50) | [log](logs/msgc_condensenet_noatt_log.txt) |
 
 ## Training
 
