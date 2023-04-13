@@ -22,7 +22,7 @@ Training: Pytorch 1.9 with cuda 11.1 and cudnn 7.5 in an Ubuntu 18.04 system <br
 
 ## Performance
 
-The performances of MSGC equipped models (on ImageNet) are listed below. The checkpoints of our trained models can be downloaded at [link to our trained models](https://github.com/hellozhuo/msgc/releases/download/v0.1/trained_models_imagenet.zip). For evaluation, 
+The performances of MSGC equipped models (on ImageNet) are listed below. The checkpoints of our trained models can be downloaded at [link to our trained models](https://github.com/hellozhuo/msgc/releases/download/v1.0/trained_models_imagenet.zip). For evaluation, 
 please unzip the checkpoints to folder [checkpoints](checkpoints). 
 The evaluation scripts to reproduce the following results can be found in [scripts.sh](scripts.sh).
 
