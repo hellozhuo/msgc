@@ -1,7 +1,7 @@
 # Middle Spectrum Grouped Convolution (MSGC)
 
 This repository contains the PyTorch implementation for 
-[Boosting Convolutional Neural Networks with Middle Spectrum Grouped Convolution] (https://arxiv.org/abs/2304.06305)
+[Boosting Convolutional Neural Networks with Middle Spectrum Grouped Convolution](https://arxiv.org/abs/2304.06305)
 by 
 [Zhuo Su](https://zhuogege1943.com/homepage/), 
 [Jiehua Zhang](https://scholar.google.com/citations?user=UIbAv3wAAAAJ&hl=en&oi=sra), 
