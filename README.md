@@ -1,21 +1,20 @@
 # Middle Spectrum Grouped Convolution (MSGC)
 
 This repository contains the PyTorch implementation for 
-"Boosting Convolutional Neural Networks with Middle Spectrum Grouped Convolution" 
+[Boosting Convolutional Neural Networks with Middle Spectrum Grouped Convolution] (https://arxiv.org/abs/2304.06305)
 by 
 [Zhuo Su](https://zhuogege1943.com/homepage/), 
 [Jiehua Zhang](https://scholar.google.com/citations?user=UIbAv3wAAAAJ&hl=en&oi=sra), 
 Tianpeng Liu,
 Zhen Liu,
 Shuanghui Zhang,
-[Matti Pietikäinen](https://en.wikipedia.org/wiki/Matti_Pietik%C3%A4inen_(academic)) and 
-[Li Liu](http://lilyliliu.com/)\*
-(\* Corresponding author).
+[Matti Pietikäinen](https://en.wikipedia.org/wiki/Matti_Pietik%C3%A4inen_(academic)), 
+and [Li Liu](http://lilyliliu.com/) (corresponding author).
 
 
 ## Running environment
 
-Training: Pytorch 1.9 with cuda 11.1 and cudnn 7.5 in an Ubuntu 18.04 system <br>
+Ubuntu 18.04 system + cuda 11.1 and cudnn 8.2.1 + Pytorch 1.9 + python 3.9
 
 *Other versions may also work~ :)*
 
